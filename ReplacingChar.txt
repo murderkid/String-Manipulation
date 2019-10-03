@@ -1,0 +1,34 @@
+Declare String1 : String 
+Declare Char1 : char 
+Declare Char2 : char
+Declare Char3 : char
+Declare Count : Integer
+Declare NewString : String
+
+String1 = ""
+Char1 = ''
+Char2 = ''
+Char3 = ''
+NewString = ""
+
+Output " Enter the String "
+Input String1
+Output " Please Enter the Charecter you want to Replace " 
+Input Char1
+Output " Please enter the Charecter you want to replace with "
+Input Char2
+
+For count = 1 to lenght(String1)
+    char3 = Mid(String1, Count, 1)
+    If asc(Char3) = asc(Char1)
+      then 
+        NewString = NewString & Char2
+      Else 
+        NewString = NewString & Char3
+    End if
+Next Count
+
+Output NewString
+
+End  
+
