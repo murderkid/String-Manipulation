@@ -18,7 +18,7 @@ Module Program
 			Student(i) = Name
 		Next
 
-		Console.WriteLine("Please enter the student Name u wanna search for")
+	Console.WriteLine("Please enter the student Name you want to search for")
 		Search = Console.ReadLine()
 
 		For i = 1 To 10
